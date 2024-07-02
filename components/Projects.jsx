@@ -13,7 +13,7 @@ const Projects = () => {
   }, [projects]);
 
   return (
-    <section id="projects" className="bg-mainDark">
+    <section id="projects" className="bg-mainDark p-4">
       <div className="container mx-auto flex flex-col max-w-md md:max-w-7xl">
         <h2 className="text-blue-600 text-center my-8 font-bold text-4xl md:text-left">
           PORTFOLIO

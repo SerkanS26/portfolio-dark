@@ -8,7 +8,7 @@ import Link from "next/link";
 import TechStack from "./TechStack";
 const Hero = () => {
   return (
-    <section className="pt-40 bg-mainDark " id="#hero">
+    <section className="pt-40 px-5 bg-mainDark " id="#hero">
       <div className=" flex flex-col-reverse container mx-auto max-w-md md:max-w-7xl md:flex-row">
         {/* Left */}
         <div className=" flex flex-1 flex-col items-center justify-center my-2">
