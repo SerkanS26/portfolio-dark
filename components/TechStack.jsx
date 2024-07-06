@@ -10,8 +10,8 @@ const TechStack = () => {
   return (
     <div className="py-10">
       <div className="flex flex-col items-center container mx-auto max-w-md md:max-w-7xl md:flex-row">
-        <div className="w-1/5 flex items-center justify-start mt-4 mb-2 ">
-          <h2 className="text-mainLight text-3xl rotate-0  lg:-ml-14 lg:-rotate-90 ">
+        <div className="w-full flex items-center justify-center mt-4 mb-2  md:w-1/5 ">
+          <h2 className="text-mainLight text-3xl rotate-0 md:-ml-14 md:-rotate-90 ">
             Tech Stack
           </h2>
         </div>
