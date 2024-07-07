@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <section
-      className="px-4  py-6 md:px-14 bg-mainDark text-mainLight fixed  top-0 w-full z-50 font-Quicksand ease-in duration-300 shadow-lg shadow-slate-600"
+      className="px-4  py-6 md:px-14 bg-mainDark text-mainLight sticky top-0 w-full z-50 font-Quicksand ease-in duration-300 shadow-lg shadow-slate-600"
       id="navbar"
     >
       <nav className="flex flex-col justify-between container mx-auto md:flex-row md:items-center">

@@ -10,7 +10,7 @@ const TechStack = () => {
   return (
     <div className="py-10">
       <div className="flex flex-col items-center container mx-auto max-w-md md:max-w-7xl md:flex-row">
-        <div className="w-full flex items-center justify-center mt-4 mb-2  md:w-1/5 ">
+        <div className="w-full flex items-center justify-center mt-4 mb-2  md:w-1/5 md:justify-start">
           <h2 className="text-mainLight text-3xl rotate-0 md:-ml-14 md:-rotate-90 ">
             Tech Stack
           </h2>
