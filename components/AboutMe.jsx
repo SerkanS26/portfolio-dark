@@ -19,7 +19,7 @@ const AboutMe = () => {
 
         {/* Right */}
         <div className="flex max-md:justify-center max-md:items-center flex-col gap-6 md:w-2/4">
-          <h2 className="text-blue-600 text-4xl text-left font-bold">
+          <h2 className="text-textBlue text-4xl text-left font-bold">
             ABOUT ME
           </h2>
           <div className=" text-mainLight">

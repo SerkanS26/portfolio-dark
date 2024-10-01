@@ -12,6 +12,7 @@ const ProjectCard = ({ project }) => {
         <Image
           src={`/images${project.img}`}
           alt={project.title}
+          priority={true}
           width={0}
           height={0}
           sizes="100%"
@@ -20,7 +21,7 @@ const ProjectCard = ({ project }) => {
       </div>
       {/* Project Description Right*/}
       <div className=" w-full h-full">
-        <h3 className="text-center text-2xl lg:text-3xl mb-4 text-blue-600 font-bold">
+        <h3 className="text-center text-2xl lg:text-3xl mb-4 text-textBlue font-bold">
           {project.title}
         </h3>
         <div className="flex justify-center items-center flex-wrap gap-2 lg:mt-12">
@@ -48,7 +49,7 @@ const ProjectCard = ({ project }) => {
             href={project.link}
             target="_blank"
             rel="noreferrer"
-            className="flex justify-center items-center bg-blue-500 text-white p-2 rounded-lg shadow-lg hover:bg-blue-600 ease-in duration-200"
+            className="flex justify-center items-center bg-textBlue text-white p-2 rounded-lg shadow-lg hover:bg-blue-400 ease-in duration-200"
           >
             Demo
             <FaExternalLinkAlt className="inline-block ml-2 text-xl" />
